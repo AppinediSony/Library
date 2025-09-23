@@ -1,12 +1,15 @@
-#Library management System-Internship Task
+# Library Management System – Internship Task
 
-This repository contains the "Database Schema" and "ER Diagram" for a Library management schema developed as a part of my internship task.
+## Overview
+This repository contains the **Database Schema** and **ER Diagram** for a Library Management System developed as part of my internship task. The focus is on creating a structured database with proper relationships between entities.
 
-#Database Schema
- --Books (BookId[PK], Title, Author, YearPublished)
- --Members (MemberId[PK], Name, Email)
- --BorrowRecords (RecordID[PK], BookId[FK], MemberID[FK], BorrowDate, ReturnDate)
-The schema is available in schema.sql.
+## Database Schema
+- **Books** – `BookId` (PK), `Title`, `Author`, `YearPublished`  
+- **Members** – `MemberId` (PK), `Name`, `Email`  
+- **BorrowRecords** – `RecordID` (PK), `BookId` (FK), `MemberID` (FK), `BorrowDate`, `ReturnDate`  
 
-#ER Diagram
-The ER diagram representing the relationships between the tables is in ER Diagram.png.
+The schema is available in **schema.sql**.
+
+## ER Diagram
+The ER diagram representing the relationships between the tables is in **ER Diagram.png**.
+
