@@ -1,4 +1,4 @@
-# Library Management System – Internship Task
+# Library Management System – Internship Task-1
 
 ## Overview
 This repository contains the **Database Schema** and **ER Diagram** for a Library Management System developed as part of my internship task. The focus is on creating a structured database with proper relationships between entities.
